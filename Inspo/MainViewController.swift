@@ -13,7 +13,7 @@ import Alamofire
 
 class MainViewController: UIViewController {
 
-    
+    //If you see this comment, please revert
     @IBOutlet weak var collectionView: UICollectionView!
 
     let url = "https://machetalk.jp/mobile_api/viewer/room_list"
