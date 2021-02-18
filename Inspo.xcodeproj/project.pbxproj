@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60810319610D525A66D9D2E0 /* Pods_Inspo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48A79741CB781BE773ED995 /* Pods_Inspo.framework */; };
 		F713C3C225C287B8000076FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F713C3C125C287B8000076FB /* AppDelegate.swift */; };
 		F713C3C425C287B8000076FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F713C3C325C287B8000076FB /* SceneDelegate.swift */; };
-		F713C3C625C287B8000076FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F713C3C525C287B8000076FB /* ViewController.swift */; };
+		F713C3C625C287B8000076FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F713C3C525C287B8000076FB /* MainViewController.swift */; };
 		F713C3C925C287B8000076FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F713C3C725C287B8000076FB /* Main.storyboard */; };
 		F713C3CB25C287BB000076FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F713C3CA25C287BB000076FB /* Assets.xcassets */; };
 		F713C3CE25C287BB000076FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F713C3CC25C287BB000076FB /* LaunchScreen.storyboard */; };
+		F7523B8D25C39960002A7232 /* PerformerPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7523B8C25C39960002A7232 /* PerformerPhotoCell.swift */; };
+		F7523B9025C3BB94002A7232 /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7523B8F25C3BB94002A7232 /* Performer.swift */; };
+		F7DE786C25C8E53000C68866 /* PerformerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DE786A25C8E53000C68866 /* PerformerCollectionViewCell.swift */; };
+		F7DE786D25C8E53000C68866 /* PerformerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DE786B25C8E53000C68866 /* PerformerCollectionViewCell.xib */; };
+		F7E5797D25CA94BF000D562E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5797C25CA94BF000D562E /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51D4DEEBDCFD585C1C11878B /* Pods-Inspo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspo.debug.xcconfig"; path = "Target Support Files/Pods-Inspo/Pods-Inspo.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB406E0AF17A69B70E26CD0 /* Pods-Inspo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspo.release.xcconfig"; path = "Target Support Files/Pods-Inspo/Pods-Inspo.release.xcconfig"; sourceTree = "<group>"; };
+		A48A79741CB781BE773ED995 /* Pods_Inspo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inspo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F713C3BE25C287B8000076FB /* Inspo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F713C3C125C287B8000076FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F713C3C325C287B8000076FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F713C3C525C287B8000076FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F713C3C525C287B8000076FB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F713C3C825C287B8000076FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F713C3CA25C287BB000076FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F713C3CD25C287BB000076FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F713C3CF25C287BB000076FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7523B8C25C39960002A7232 /* PerformerPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformerPhotoCell.swift; sourceTree = "<group>"; };
+		F7523B8F25C3BB94002A7232 /* Performer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
+		F7DE786A25C8E53000C68866 /* PerformerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformerCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7DE786B25C8E53000C68866 /* PerformerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerformerCollectionViewCell.xib; sourceTree = "<group>"; };
+		F7E5797C25CA94BF000D562E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60810319610D525A66D9D2E0 /* Pods_Inspo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C6C9486182718ABD0E32526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D4DEEBDCFD585C1C11878B /* Pods-Inspo.debug.xcconfig */,
+				7EB406E0AF17A69B70E26CD0 /* Pods-Inspo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F54115AB5CFCAE946936F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A48A79741CB781BE773ED995 /* Pods_Inspo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F713C3B525C287B8000076FB = {
 			isa = PBXGroup;
 			children = (
 				F713C3C025C287B8000076FB /* Inspo */,
 				F713C3BF25C287B8000076FB /* Products */,
+				6C6C9486182718ABD0E32526 /* Pods */,
+				9F54115AB5CFCAE946936F96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,36 @@
 		F713C3C025C287B8000076FB /* Inspo */ = {
 			isa = PBXGroup;
 			children = (
+				F7DE786925C8E50900C68866 /* Models */,
+				F7DE786825C8E4FE00C68866 /* Cells */,
 				F713C3C125C287B8000076FB /* AppDelegate.swift */,
 				F713C3C325C287B8000076FB /* SceneDelegate.swift */,
-				F713C3C525C287B8000076FB /* ViewController.swift */,
+				F713C3C525C287B8000076FB /* MainViewController.swift */,
+				F7E5797C25CA94BF000D562E /* GradientView.swift */,
 				F713C3C725C287B8000076FB /* Main.storyboard */,
 				F713C3CA25C287BB000076FB /* Assets.xcassets */,
 				F713C3CC25C287BB000076FB /* LaunchScreen.storyboard */,
 				F713C3CF25C287BB000076FB /* Info.plist */,
 			);
 			path = Inspo;
+			sourceTree = "<group>";
+		};
+		F7DE786825C8E4FE00C68866 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F7523B8C25C39960002A7232 /* PerformerPhotoCell.swift */,
+				F7DE786A25C8E53000C68866 /* PerformerCollectionViewCell.swift */,
+				F7DE786B25C8E53000C68866 /* PerformerCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F7DE786925C8E50900C68866 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7523B8F25C3BB94002A7232 /* Performer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F713C3D225C287BB000076FB /* Build configuration list for PBXNativeTarget "Inspo" */;
 			buildPhases = (
+				D7F709413B5D6B2F363355AA /* [CP] Check Pods Manifest.lock */,
 				F713C3BA25C287B8000076FB /* Sources */,
 				F713C3BB25C287B8000076FB /* Frameworks */,
 				F713C3BC25C287B8000076FB /* Resources */,
+				486403B25BC79B6DC6A6B8C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F713C3CE25C287BB000076FB /* LaunchScreen.storyboard in Resources */,
+				F7DE786D25C8E53000C68866 /* PerformerCollectionViewCell.xib in Resources */,
 				F713C3CB25C287BB000076FB /* Assets.xcassets in Resources */,
 				F713C3C925C287B8000076FB /* Main.storyboard in Resources */,
 			);
@@ -132,14 +190,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		486403B25BC79B6DC6A6B8C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inspo/Pods-Inspo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inspo/Pods-Inspo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inspo/Pods-Inspo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F709413B5D6B2F363355AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inspo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F713C3BA25C287B8000076FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F713C3C625C287B8000076FB /* ViewController.swift in Sources */,
+				F713C3C625C287B8000076FB /* MainViewController.swift in Sources */,
+				F7523B9025C3BB94002A7232 /* Performer.swift in Sources */,
 				F713C3C225C287B8000076FB /* AppDelegate.swift in Sources */,
 				F713C3C425C287B8000076FB /* SceneDelegate.swift in Sources */,
+				F7E5797D25CA94BF000D562E /* GradientView.swift in Sources */,
+				F7523B8D25C39960002A7232 /* PerformerPhotoCell.swift in Sources */,
+				F7DE786C25C8E53000C68866 /* PerformerCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +387,7 @@
 		};
 		F713C3D325C287BB000076FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D4DEEBDCFD585C1C11878B /* Pods-Inspo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +406,7 @@
 		};
 		F713C3D425C287BB000076FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB406E0AF17A69B70E26CD0 /* Pods-Inspo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
